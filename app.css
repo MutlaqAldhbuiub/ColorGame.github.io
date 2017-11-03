@@ -1,0 +1,44 @@
+body{
+   background-color: dimgray;
+}
+
+span{
+  color: white;
+}
+
+li{
+  list-style-type: none;
+  width: auto;
+  float: left;
+  margin-left: 30%;
+}
+
+.TheLine {
+    text-align: center;
+    background-color: #c8c6c6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.header{
+   background-color: #528ff2;
+   padding-bottom: 5px;
+   font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align:center;
+    padding-top: 2%;
+}
+
+.square{
+    width: 30%;
+    margin: 1.66%;
+    background: darkred;
+    padding-bottom: 30%;
+    float: left;
+}
+
+#continer{
+    max-width:600px;
+    margin: 0 auto;
+}
