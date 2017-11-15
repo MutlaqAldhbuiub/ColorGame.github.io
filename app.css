@@ -16,15 +16,18 @@ li{
 
 .TheLine {
     text-align: center;
-    background-color: #c8c6c6;
+    /*background-color: #c8c6c6;*/
+    background-color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 24px;
     height: 30px;
-
+    margin-top: -31px;
+    margin-bottom: 10px;
 }
+
 .header{
    background-color: #528ff2;
-   padding-bottom: 5px;
+   padding-bottom: 10px;
    font-family: 'Roboto', sans-serif;
 }
 
@@ -41,6 +44,24 @@ button{
   border:none;
   text-transform: uppercase;
   background: none;
+  font-weight: 700;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  outline: none;
+}
+
+button:hover{
+  color: white;
+  background-color: #528ff2;
+}
+
+#Tick{
+  display: inline-block;
+  width: 20%;
 }
 
 #ColorDisplay{
@@ -53,6 +74,10 @@ button{
     background: darkred;
     padding-bottom: 30%;
     float: left;
+    border-radius: 15%;
+    transition: background 0.4s;
+    -webkit-transition: background 0.4s;
+    -moz-transition: background 0.4s;
 }
 
 #continer{
@@ -63,5 +88,6 @@ button{
 
 
 .selected{
-  background-color: blue;
+  color: white;
+  background-color: #528ff2;
 }
